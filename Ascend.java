@@ -17,6 +17,5 @@ public class Ascend {
 		int mid = sum - topMax -topMin;
 		System.out.println("Min " + topMin + " mid: " + mid  + " max:" + topMax);
 		
-
 	}
 }
