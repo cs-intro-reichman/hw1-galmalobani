@@ -4,9 +4,8 @@ public class Bill3 {
 	 	String name1 = args[0];
 		String name2 = args[1];
 		String name3 = args[2];
-		
 		int bill = Integer.parseInt(args[3]);
-		double splitBill = Math.ceil(bill / 3.0);
+		double splitBill = bill / 3.0;
 		String result = "Dear: " + name3 + ", " + name2 + ", and " + name1 + ": pay" +  " " + splitBill + " Shekels each.";
 		System.out.println(result);
 	     
